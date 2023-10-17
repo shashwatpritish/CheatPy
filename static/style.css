@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fefefe;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.icon img{
+    margin: 0 10px;
+}
+
+.heading{
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol{
+    margin: auto;
+    width: 70%;
+}
+
+ol li h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+ol li p{
+    font-family: 'Roboto Slab', serif;
+}
+
+.copy-to-clipboard-button{
+    font-size: 15px !important;
+    color: #42cdef !important;
+    padding: 3px 5px !important;
+    background: transparent !important;
+    border: 2px solid #a6e22a !important;
+    border-radius: 20px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+footer{
+    background: #000;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 5px;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer .logo img{
+    width: 50px;
+}
